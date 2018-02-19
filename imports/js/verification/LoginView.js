@@ -1,5 +1,12 @@
-export let login;
-login = function check(form) {
+// TODO: For some reason, adding this code is killing the function
+// export let login;
+//
+// login =
+
+import React from 'react';
+import ReactDom from 'react-dom';
+
+function check(form) {
     if (form.userid.value === 'dpara' && form.pswrd.value === "123") {
         window.open('http://www.depaul.edu/')
     } else {
