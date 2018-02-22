@@ -3,7 +3,7 @@
 body {
     margin: auto;
     background-color: #052F48;
-    background-image: url('eiffelTowerBackground.jpg');
+    /*background-image: url('eiffelTowerBackground.jpg');*/
     background-repeat: no-repeat;
     background-position-y: 100px;
     background-size: 100%;
