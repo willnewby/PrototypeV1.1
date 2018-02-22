@@ -11,7 +11,7 @@ body {
 
 .header {
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: 32px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -20,9 +20,10 @@ body {
 }
 
 .login {
-    top: 25px;
-    float: right;
-    padding: 10px;
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    margin: auto;
 }
 
 .login input[type=text] {
@@ -57,7 +58,7 @@ body {
 
 .login input[type=button] {
     float: right;
-    width: 260px;
+    width: 100px;
     height: 35px;
     background: #fff;
     border: 1px solid #fff;
