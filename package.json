@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.36",
+<<<<<<< HEAD
     "meteor-node-stubs": "^0.3.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -15,5 +16,14 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1"
+=======
+<<<<<<< HEAD
+    "meteor-node-stubs": "^0.3.2"
+=======
+    "meteor-node-stubs": "^0.3.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+>>>>>>> 76f77b43f7d3fc4c7f3e4705b8a461e143e46587
+>>>>>>> master
   }
 }
