@@ -2,21 +2,21 @@
 
 body {
     margin: auto;
-    background-color: #052F48;
-    /*background-image: url('eiffelTowerBackground.jpg');*/
+    background-color: #0F4F73;
+    background-image: url('http://architectureimg.com/wp-content/uploads/2017/05/ancient-eiffel-tower-cool-famous-majestic-paris-steel-photo.jpg');
     background-repeat: no-repeat;
-    background-position-y: 100px;
+    background-position-y: 230px;
     background-size: 100%;
 }
 
 .header {
-    position: absolute;
-    top: 20px;
-    left: 32px;
-    color: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
+    float: left;
+    color: #D4541B;
+    font-size: 54px;
+    font-weight: 200;
+    margin-top: 75px;
+    margin-left: 50px;
 }
 
 .login {
@@ -29,10 +29,10 @@ body {
 .login input[type=text] {
     width: 246px;
     height: 35px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 1);
-    border-radius: 2px;
-    color: #fff;
+    background: RGBA(212, 84, 27, 0.1);
+    border: 1px solid RGBA(212, 84, 27, 1.00);
+    border-radius: 5px;
+    color: #A9A9A9;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -44,10 +44,10 @@ body {
 .login input[type=password] {
     width: 246px;
     height: 35px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 1);
-    border-radius: 2px;
-    color: #fff;
+    background: RGBA(212, 84, 27, 0.1);
+    border: 1px solid RGBA(212, 84, 27, 1.00);
+    border-radius: 5px;
+    color: #A9A9A9;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -56,41 +56,68 @@ body {
     margin-right: 16px;
 }
 
-.login input[type=button] {
+.login input[type=submit] {
     float: right;
-    width: 100px;
+    width: 123px;
     height: 35px;
-    background: #fff;
-    border: 1px solid #fff;
+    background: #D4541B;
+    border: 1px solid #D4541B;
     cursor: pointer;
-    border-radius: 2px;
-    color: #a18d6c;
+    border-radius: 5px;
+    color: #063651/*#A9A9A9*/;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    padding: 6px;
     margin-top: 16px;
     margin-right: 16px;
 }
 
-.login input[type=button]:hover {
+.login input[type=submit]:hover {
     opacity: 0.8;
 }
 
-.login input[type=button]:active {
+.login input[type=submit]:active {
     opacity: 0.6;
+}
+
+.login input[type=url]:hover {
+    font-weight: 200;
+    font-size: 19px;
+}
+
+.login input[type=url]:active {
+    font-size: 17px;
 }
 
 .login input[type=text]:focus {
     outline: none;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(212, 84, 27, 0.8);
 }
 
 .login input[type=password]:focus {
     outline: none;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(212, 84, 27, 0.8);
 }
 
 .login input[type=button]:focus {
     outline: none;
+}
+
+a:link {
+    float: right;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #A9A9A9;
+    margin-top: 5px;
+    margin-right: 35px;
+}
+
+a:hover {
+    font-weight: 200;
+}
+
+a:visited {
+    color: #063651;
 }
